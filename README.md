@@ -4,46 +4,46 @@ A live streaming application using ReactJS and Redux.
 
 ## Installation
 
-1. Clone this repo\
+1. Clone this repo
   
-2.Install [Open Broadcaster Software](https://obsproject.com/) aka OBS for your operating system.
+2. Install [Open Broadcaster Software](https://obsproject.com/) aka OBS for your operating system.
 
 
 ## Usage
 
 ### Backend - API Server
 
-1. **Open New Terminal Window** & Please `cd` into `api` folder and then run\
+1. **Open New Terminal Window** & Please `cd` into `api` folder and then run
 
 `npm install`
 
-2. Run `npm start` to start this local server. This opens port `8001`.\
+2. Run `npm start` to start this local server. This opens port `8001`.
 
 3. Open [http://localhost:3005/streams](http://localhost:3005/streams) to view the fake api resource powered by `json-server`. The API Server is used for interacting with the Frontend.
 
 ### Backend - RTMP Server
 
-1. **Open New Terminal Window** & Please `cd` into `rtmpserver` folder and then run\
+1. **Open New Terminal Window** & Please `cd` into `rtmpserver` folder and then run
 
-`npm install`\
+`npm install`
 
 2. Run `npm start` to run RTMP Server on your local machine. This opens port `1935` for rtmp and port `8000` for http.
 
 ### Frontend - Client
 
-1. **Open New Terminal Window** & Please `cd` into `client` folder and then run\
+1. **Open New Terminal Window** & Please `cd` into `client` folder and then run
 
-`npm install`\
+`npm install`
 
-2. Run `npm start` to run this on your local server. This opens port `3000`.\
+2. Run `npm start` to run this on your local server. This opens port `3000`.
 
-3. Login using the sign in button to view the streams created by you.\
+3. Login using the sign in button to view the streams created by you.
 
 4. Open [http://localhost:3000](http://localhost:3000) to view the frontend part of the application within the browser.
 
 ## Streaming through OBS
 
-1. Open OBS. For Live ScreenShare Recording, in the scenes sub window, click on "+" icon and create a new scene. After that on sources sub window, click on "+" icon multiple times and add "Audio Input Capture" & "Display Capture" respectively. For other types of streaming, consult Mr. Google!\
+1. Open OBS. For Live ScreenShare Recording, in the scenes sub window, click on "+" icon and create a new scene. After that on sources sub window, click on "+" icon multiple times and add "Audio Input Capture" & "Display Capture" respectively. For other types of streaming, consult Mr. Google!
 
 2. Click on "Settings => Stream". Choose Streaming Type as custom streaming server. Set URL as `rtmp://localhost/live`.
 
