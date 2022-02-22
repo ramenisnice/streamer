@@ -13,9 +13,7 @@ A live streaming application using ReactJS and Redux.
 
 ### Backend - API Server
 
-1. **Open New Terminal Window** & Please `cd` into `api` folder and then run
-
-`npm install`
+1. **Open New Terminal Window** & Please `cd` into `api` folder and then run `npm install`.
 
 2. Run `npm start` to start this local server. This opens port `8001`.
 
@@ -23,17 +21,13 @@ A live streaming application using ReactJS and Redux.
 
 ### Backend - RTMP Server
 
-1. **Open New Terminal Window** & Please `cd` into `rtmpserver` folder and then run
-
-`npm install`
+1. **Open New Terminal Window** & Please `cd` into `rtmpserver` folder and then run `npm install`.
 
 2. Run `npm start` to run RTMP Server on your local machine. This opens port `1935` for rtmp and port `8000` for http.
 
 ### Frontend - Client
 
-1. **Open New Terminal Window** & Please `cd` into `client` folder and then run
-
-`npm install`
+1. **Open New Terminal Window** & Please `cd` into `client` folder and then run `npm install`.
 
 2. Run `npm start` to run this on your local server. This opens port `3000`.
 
