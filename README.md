@@ -41,6 +41,6 @@ A live streaming application using ReactJS and Redux.
 
 2. Click on "Settings => Stream". Choose Streaming Type as custom streaming server. Set URL as `rtmp://localhost/live`.
 
-3. For stream key, enter the stream id of the stream you want to play. For example, for URL `http://localhost:3000/streams/8` the stream id would be 8. Please insert that ID.
+3. For stream key, enter the stream id of the stream you want to play. For example, for URL `http://localhost:3000/streams/4` the stream id would be 4. Please insert that ID.
 
 4. Click Ok and then start streaming. Stream should be available at `http://localhost:3000/streams/:id` where id is your stream id, which is the same URL to browse into for watching this stream.
